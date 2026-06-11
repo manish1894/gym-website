@@ -123,15 +123,40 @@
 background-position: 75% center; /* Mobile me thoda adjust karne ke liye */
 padding: 30px 20px;
 }
+.hero-section{
+    height: auto;
+    padding: 120 px 20px 40px 20px;
+    background-image: linear-gradient(rgba(12,12,12,0.85), rgba(12,12,12,0.85), url('/unnamed.jpg'));
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .hero-content {
 max-width: 100%;
+}
+.quote-wrapper{
+    padding: 0 10px;
 }
 .gym-quote {
 font-size: 16px;
 line-height: 1.6;
+font-weight: 400;
+margin: 10px 0;
 }
 .signature {
 font-size: 24px;
+text-align: center;
+margin-top: 15px;
+padding-right: 0;
+}
+.quote-icon-start, .quote-icon-end{
+    font-size: 40px;
+    position: static;
+    display: inline-block;
+    color: #ff4a57;
 }
 }
 
