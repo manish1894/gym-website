@@ -119,18 +119,22 @@
     .section-title{
         font-size: 24px;
     }
-    .gym-quote{
-        font-size: 16px;
-        line-height: 1.6;
-    }
-    .quote-icon-start, .quote-icon-end{
-        font-size: 50px;
-    }
-    .signature{
-        font-size: 22px;
-    }
-    
+    .hero-section {
+background-position: 75% center; /* Mobile me thoda adjust karne ke liye */
+padding: 30px 20px;
 }
+.hero-content {
+max-width: 100%;
+}
+.gym-quote {
+font-size: 16px;
+line-height: 1.6;
+}
+.signature {
+font-size: 24px;
+}
+}
+
  .hero-section{
    height: 85vh;
 
