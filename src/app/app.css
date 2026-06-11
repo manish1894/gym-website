@@ -123,40 +123,61 @@
 background-position: 75% center; /* Mobile me thoda adjust karne ke liye */
 padding: 30px 20px;
 }
-.hero-section{
-    height: auto;
-    padding: 120 px 20px 40px 20px;
-    background-image: linear-gradient(rgba(12,12,12,0.85), rgba(12,12,12,0.85), url('/unnamed.jpg'));
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.hero-section {
+height: auto; /* Height auto rahegi taaki text aaram se fit ho */
+min-height: 90vh; /* Kam se kam screen ka 90% area cover kare */
+padding: 100px 24px 40px 24px; /* Upar se solid space taaki navbar ke neeche aaye */
+
+/* Mobile me background photo ko center me halka black overlay denge */
+background-image: linear-gradient(rgba(12, 12, 12, 0.88), rgba(12, 12, 12, 0.88)), url('/unnamed.jpg');
+background-position: center center;
+background-size: cover;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
+
 .hero-content {
-max-width: 100%;
+max-width: 100%; /* Mobile me poori width use karega */
+text-align: center; /* Text mast center me align hoga */
 }
-.quote-wrapper{
-    padding: 0 10px;
+
+.quote-wrapper {
+padding: 0 15px;
+position: relative;
 }
-.gym-quote {
-font-size: 16px;
-line-height: 1.6;
-font-weight: 400;
-margin: 10px 0;
-}
-.signature {
-font-size: 24px;
+
+/* Quotes icons ko text ke upar aur neeche thoda stylish small size me set kiya */
+.quote-icon-start, .quote-icon-end {
+font-size: 35px;
+color: #ff4a57;
+font-family: 'Georgia', serif;
+display: block;
 text-align: center;
-margin-top: 15px;
-padding-right: 0;
+line-height: 1;
+position: static; /* Absolute se hata kar upar-neeche set kiya */
+margin: 10px auto;
 }
-.quote-icon-start, .quote-icon-end{
-    font-size: 40px;
-    position: static;
-    display: inline-block;
-    color: #ff4a57;
+
+/* ⚡ Khel yahan badlega: Font size ko chota kiya aur spacing badhayi */
+.gym-quote {
+font-size: 15px; /* Size chota hone se ab ek line me 4-5 words aaram se aayenge */
+line-height: 1.8; /* Do lines ke beech me badhiya space */
+font-weight: 400;
+letter-spacing: 0.5px;
+color: #e0e0e0;
+margin: 0;
+}
+
+/* Signature center me cool lagega */
+.signature {
+font-size: 20px;
+text-align: center;
+margin-top: 20px;
+padding-right: 0;
+color: #ff4a57;
 }
 }
 
