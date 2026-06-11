@@ -136,41 +136,7 @@ align-items: center;
 }
 
 .hero-content {
-max-width: 100%; /* Mobile me poori width use karega */
-}
-
-.quote-wrapper {
-padding: 0 15px;
-position: relative;
-}
-
-/* Quotes icons ko text ke upar aur neeche thoda stylish small size me set kiya */
-.quote-icon-start, .quote-icon-end {
-font-size: 35px;
-color: #ff4a57;
-font-family: 'Georgia', serif;
-display: block;
-text-align: center;
-line-height: 1;
-position: static; /* Absolute se hata kar upar-neeche set kiya */
-margin: 10px auto;
-}
-
-/* ⚡ Khel yahan badlega: Font size ko chota kiya aur spacing badhayi */
-.gym-quote {
-font-size: 15px; /* Size chota hone se ab ek line me 4-5 words aaram se aayenge */
-line-height: 1.8; /* Do lines ke beech me badhiya space */
-text-align: left;
-color: #e0e0e0;
-}
-
-/* Signature center me cool lagega */
-.signature {
-font-size: 20px;
-text-align: left;
-margin-top: 20px;
-padding-left: 10px;
-color: #ff4a57;
+display: none;
 }
 }
 
