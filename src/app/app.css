@@ -119,5 +119,90 @@
     .section-title{
         font-size: 24px;
     }
+    .gym-quote{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .quote-icon-start, .quote-icon-end{
+        font-size: 50px;
+    }
+    .signature{
+        font-size: 22px;
+    }
     
 }
+ .hero-section{
+   height: 85vh;
+
+/* 🔄 Left side me heavy black shadow (85% tak) taaki quote solid dikhe, aur right side me sirf 20% shadow taaki photo clear dikhe */
+background-image: linear-gradient(to right, rgba(12, 12, 12, 0.95) 45%, rgba(12, 12, 12, 0.6) 75%, rgba(12, 12, 12, 0.2) 100%), url('/unnamed.jpg');
+
+/* 🔄 PHOTO KO PURE BACKGROUND PAR PHAILANE KE LIYE (Jaise reference image me hai) */
+background-size: contain;
+background-repeat: no-repeat;
+
+/* 🔄 SABSE ZAROORI: Photo ko right side me khiskane ke liye taaki body/face right me set ho jaye */
+background-position: 85% center;
+
+display: flex;
+align-items: center;
+justify-content: flex-start;
+padding: 0 5% 0 8%;
+background-color: #0c0c0c;
+}
+
+/* 🔄 TEXT BLOCK: Isko 45% par lock kar diya taaki ye right side waale bodybuilder ke upar bilkul na chadhe */
+.hero-content {
+max-width: 45%;
+z-index: 2;
+}
+
+/* Quote Wrapper */
+.quote-wrapper {
+position: relative;
+padding: 10px 0;
+}
+
+/* Inverted Commas Style (Reference photo ki tarah stylish aur bade) */
+.quote-icon-start, .quote-icon-end {
+font-size: 90px;
+color: #ff4a57;
+font-family: 'Georgia', serif;
+position: absolute;
+opacity: 0.8;
+line-height: 0;
+}
+
+.quote-icon-start {
+top: -15px;
+left: -45px;
+}
+
+.quote-icon-end {
+bottom: 15px;
+display: inline-block;
+margin-left: 10px;
+}
+
+/* Quote Text Styling */
+.gym-quote {
+color: #f5f5f5;
+font-size: 22px; /* Perfect readable size */
+font-style: italic;
+line-height: 1.8;
+font-weight: 500;
+margin: 0;
+text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+/* Manish Signature Style */
+.signature {
+color: #ff4a57;
+font-size: 34px;
+font-family: 'Brush Script MT', 'cursive', sans-serif;
+text-align: right;
+margin-top: 25px;
+padding-right: 10px;
+letter-spacing: 1px;
+}
+ 
