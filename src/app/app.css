@@ -95,3 +95,29 @@
     transform: translateY(-5px);
     border-color: #ff4a57;
 }
+
+@media (max-width: 768px) {
+    .navbar{
+        padding: 15px 4%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .nav-links{
+        gap: 15px;
+        margin-bottom:  5px;
+    }
+    .join-btn{
+        width: 100%;
+        padding: 10px;
+    }
+    .services-grid{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 10px;
+    }
+    .section-title{
+        font-size: 24px;
+    }
+    
+}
