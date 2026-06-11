@@ -121,8 +121,8 @@
     }
 .hero-section {
 height: auto; /* Height auto rahegi taaki text aaram se fit ho */
-min-height: 90vh; /* Kam se kam screen ka 90% area cover kare */
-padding: 100px 24px 40px 24px; /* Upar se solid space taaki navbar ke neeche aaye */
+min-height: 95vh; /* Kam se kam screen ka 90% area cover kare */
+padding: 100px 24px 40px 30px; /* Upar se solid space taaki navbar ke neeche aaye */
 
 /* Mobile me background photo ko center me halka black overlay denge */
 background-image: linear-gradient(rgba(12, 12, 12, 0.88), rgba(12, 12, 12, 0.88)), url('/unnamed.jpg');
@@ -137,7 +137,6 @@ align-items: center;
 
 .hero-content {
 max-width: 100%; /* Mobile me poori width use karega */
-text-align: center; /* Text mast center me align hoga */
 }
 
 .quote-wrapper {
@@ -161,18 +160,16 @@ margin: 10px auto;
 .gym-quote {
 font-size: 15px; /* Size chota hone se ab ek line me 4-5 words aaram se aayenge */
 line-height: 1.8; /* Do lines ke beech me badhiya space */
-font-weight: 400;
-letter-spacing: 0.5px;
+text-align: left;
 color: #e0e0e0;
-margin: 0;
 }
 
 /* Signature center me cool lagega */
 .signature {
 font-size: 20px;
-text-align: center;
+text-align: left;
 margin-top: 20px;
-padding-right: 0;
+padding-left: 10px;
 color: #ff4a57;
 }
 }
