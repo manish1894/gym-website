@@ -119,10 +119,6 @@
     .section-title{
         font-size: 24px;
     }
-    .hero-section {
-background-position: 75% center; /* Mobile me thoda adjust karne ke liye */
-padding: 30px 20px;
-}
 .hero-section {
 height: auto; /* Height auto rahegi taaki text aaram se fit ho */
 min-height: 90vh; /* Kam se kam screen ka 90% area cover kare */
